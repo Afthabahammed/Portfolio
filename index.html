@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- =============================================
+       Afthab Ahammed N — Personal Portfolio
+       Aspiring DevOps Engineer
+       ============================================= -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>Afthab Ahammed N | Aspiring DevOps Engineer & B.Tech CS Graduate</title>
+  <meta name="description" content="Portfolio of Afthab Ahammed N — B.Tech Computer Science graduate learning DevOps. Seeking DevOps/Cloud internships and entry-level roles. Skills: Linux, Docker, Kubernetes, AWS, CI/CD, Terraform, Python." />
+  <meta name="keywords"    content="DevOps Engineer, Cloud Internship, B.Tech CS, Linux, Docker, Kubernetes, AWS, Terraform, CI/CD, Python, Portfolio" />
+  <meta name="author"      content="Afthab Ahammed N" />
+  <meta name="robots"      content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Afthab Ahammed N | Aspiring DevOps Engineer" />
+  <meta property="og:description" content="B.Tech CS graduate passionate about Linux, Cloud, Automation, and CI/CD. Seeking DevOps internships." />
+  <meta property="og:url"         content="https://afthab-portfolio.dev" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="Afthab Ahammed N | Aspiring DevOps Engineer" />
+  <meta name="twitter:description" content="B.Tech CS graduate seeking DevOps/Cloud internships." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://afthab-portfolio.dev" />
+
+  <!-- Favicon (emoji-based) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+    <div class="container">
+
+      <!-- Brand / Logo -->
+      <a class="navbar-brand" href="#hero" aria-label="Home">
+        Afthab
+      </a>
+
+      <!-- Mobile toggler -->
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Theme toggle -->
+        <button id="themeToggle" class="ms-lg-3 mt-2 mt-lg-0" title="Toggle theme" aria-label="Toggle dark/light mode">
+          <i id="themeIcon" class="bi bi-sun-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       HERO SECTION
+       ============================================= -->
+  <section id="hero" aria-labelledby="heroName">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+
+        <!-- Left content -->
+        <div class="col-lg-7 hero-content">
+
+          <!-- Status badge -->
+          <div class="terminal-badge">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="mono">Open to DevOps &amp; Cloud Opportunities</span>
+          </div>
+
+          <!-- Name -->
+          <h1 class="hero-name" id="heroName">
+            Hi, I'm<br />
+            <span class="highlight">Afthab Ahammed N</span>
+          </h1>
+
+          <!-- Animated title -->
+          <p class="hero-title" aria-live="polite">
+            &gt; <span id="typingText">Aspiring DevOps Engineer</span><span class="cursor" aria-hidden="true"></span>
+          </p>
+
+          <!-- Introduction -->
+          <p class="hero-intro">
+            I am a passionate B.Tech Computer Science graduate currently learning DevOps technologies.
+            I enjoy building scalable applications, automating workflows, and continuously improving
+            my cloud and infrastructure skills. I am seeking opportunities to contribute, learn,
+            and grow as a DevOps Engineer.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-buttons" role="group" aria-label="Call to action buttons">
+            <a href="resume.pdf" download class="btn-primary-custom">
+              <i class="bi bi-download" aria-hidden="true"></i> Download Resume
+            </a>
+            <a href="#projects" class="btn-outline-custom">
+              <i class="bi bi-code-slash" aria-hidden="true"></i> View Projects
+            </a>
+            <a href="#contact" class="btn-outline-custom">
+              <i class="bi bi-envelope" aria-hidden="true"></i> Contact Me
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right: Stats card -->
+        <div class="col-lg-5">
+          <div class="hero-card fade-right delay-2" role="complementary" aria-label="Quick stats">
+
+            <!-- Stats row -->
+            <div class="row gx-0 text-center mb-3 pb-3 border-bottom border-secondary border-opacity-25">
+              <div class="col-4 stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="col-4 stat-item">
+                <span class="stat-number">9+</span>
+                <span class="stat-label">DevOps Skills</span>
+              </div>
+              <div class="col-4 stat-item">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Certificates</span>
+              </div>
+            </div>
+
+            <!-- Currently learning -->
+            <p class="mono mb-2" style="font-size:.75rem;color:#64748b;">// Currently learning</p>
+            <div>
+              <span class="tech-pill"><i class="bi bi-box-fill"></i> Docker</span>
+              <span class="tech-pill"><i class="bi bi-cloud-fill"></i> AWS</span>
+              <span class="tech-pill"><i class="bi bi-gear-fill"></i> Kubernetes</span>
+              <span class="tech-pill"><i class="bi bi-terminal-fill"></i> Terraform</span>
+              <span class="tech-pill"><i class="bi bi-arrow-repeat"></i> CI/CD</span>
+              <span class="tech-pill"><i class="bi bi-file-code"></i> Shell</span>
+            </div>
+
+            <!-- Location -->
+            <div class="mt-3 pt-2 border-top border-secondary border-opacity-25">
+              <span style="font-size:.8rem;color:#64748b;font-family:'JetBrains Mono',monospace;">
+                <i class="bi bi-geo-alt-fill text-primary"></i>&nbsp;Alappuzha, Kerala, India
+              </span>
+              <span class="ms-3" style="font-size:.8rem;color:#64748b;font-family:'JetBrains Mono',monospace;">
+                <i class="bi bi-mortarboard-fill text-primary"></i>&nbsp;B.Tech CS
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue" aria-hidden="true">
+      <i class="bi bi-chevron-double-down"></i>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ABOUT SECTION
+       ============================================= -->
+  <section id="about" aria-labelledby="aboutTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-person-fill"></i> About Me</div>
+        <h2 class="section-title" id="aboutTitle">Who I Am</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row align-items-center gy-5">
+
+        <!-- Avatar -->
+        <div class="col-lg-4 text-center fade-left">
+          <div class="about-img-wrapper">
+            <div class="about-avatar" role="img" aria-label="Afthab Ahammed N avatar">
+              <i class="bi bi-person-fill" aria-hidden="true"></i>
+            </div>
+            <div class="exp-badge" aria-label="Fresh graduate status">
+              <div class="num">2026</div>
+              <div class="lbl">Graduate</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio -->
+        <div class="col-lg-8 about-text fade-right delay-2">
+          <h3 class="mb-3">Afthab Ahammed N</h3>
+          <p>
+            I'm a <strong>B.Tech Computer Science and Engineering</strong> graduate from
+            Carmel College of Engineering and Technology, Alappuzha, affiliated with
+            APJ Abdul Kalam Technological University. My academic journey has given me
+            a solid foundation in programming, algorithms, and software development.
+          </p>
+          <p>
+            I'm currently diving deep into the <strong>DevOps ecosystem</strong> — learning
+            Linux administration, containerization with Docker, orchestration with Kubernetes,
+            infrastructure as code with Terraform, and cloud services on AWS. I'm passionate
+            about bridging the gap between development and operations through automation,
+            CI/CD pipelines, and modern infrastructure practices.
+          </p>
+          <p>
+            Beyond technical skills, I believe in continuous learning, collaborative teamwork,
+            and a growth mindset. I'm actively seeking <strong>DevOps internships</strong> or
+            <strong>entry-level Cloud/DevOps Engineer roles</strong> where I can contribute,
+            learn from experienced professionals, and make a meaningful impact.
+          </p>
+
+          <!-- Trait chips -->
+          <div class="mt-3" role="list" aria-label="Key traits">
+            <span class="trait-chip" role="listitem"><i class="bi bi-lightbulb-fill"></i> Problem Solver</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-people-fill"></i> Team Player</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-arrow-repeat"></i> Continuous Learner</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-gear-fill"></i> Automation Lover</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-cloud-fill"></i> Cloud Enthusiast</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-terminal-fill"></i> Linux Fan</span>
+            <span class="trait-chip" role="listitem"><i class="bi bi-puzzle-fill"></i> Adaptable</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SKILLS SECTION
+       ============================================= -->
+  <section id="skills" aria-labelledby="skillsTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-code-slash"></i> Skills</div>
+        <h2 class="section-title" id="skillsTitle">Technical Arsenal</h2>
+        <div class="section-divider"></div>
+        <p class="text-muted mt-2" style="max-width:540px;margin:0 auto;">
+          Actively learning DevOps technologies while building on a strong CS foundation.
+        </p>
+      </div>
+
+      <!-- DevOps Skills -->
+      <div class="mb-5 fade-up delay-1">
+        <div class="skill-category-label">
+          <i class="bi bi-rocket-takeoff-fill"></i>&nbsp; DevOps &amp; Cloud (Learning)
+        </div>
+        <div class="row g-3">
+
+          <!-- Linux -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-ubuntu" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Linux</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Linux skill level 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Git -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-git" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Git</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Git skill level 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GitHub -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-github" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">GitHub</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="GitHub skill 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Docker -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-box-seam-fill" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Docker</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Docker skill 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kubernetes -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-diagram-3-fill" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Kubernetes</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="Kubernetes skill 35%">
+                  <div class="skill-bar-fill" data-width="35%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AWS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-cloud-fill" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">AWS</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="AWS skill 40%">
+                  <div class="skill-bar-fill" data-width="40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shell Scripting -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-terminal-fill" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Shell Scripting</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Shell Scripting skill 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CI/CD -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-arrow-repeat" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">CI/CD</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" aria-label="CI/CD skill 38%">
+                  <div class="skill-bar-fill" data-width="38%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Terraform -->
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-layers-fill" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Terraform</div>
+                <div class="skill-level">Learning</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Terraform skill 30%">
+                  <div class="skill-bar-fill" data-width="30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Programming Skills -->
+      <div class="mb-5 fade-up delay-2">
+        <div class="skill-category-label">
+          <i class="bi bi-code-slash"></i>&nbsp; Programming Languages
+        </div>
+        <div class="row g-3">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-filetype-py" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Python</div>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" aria-label="Python skill 68%">
+                  <div class="skill-bar-fill" data-width="68%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-filetype-c" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">C</div>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="C skill 60%">
+                  <div class="skill-bar-fill" data-width="60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-filetype-html" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">HTML</div>
+                <div class="skill-level">Proficient</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="HTML skill 78%">
+                  <div class="skill-bar-fill" data-width="78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-filetype-css" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">CSS</div>
+                <div class="skill-level">Proficient</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="CSS skill 75%">
+                  <div class="skill-bar-fill" data-width="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-filetype-js" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript skill 62%">
+                  <div class="skill-bar-fill" data-width="62%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Web, Database & Tools -->
+      <div class="row g-5 fade-up delay-3">
+
+        <!-- Web & Database -->
+        <div class="col-lg-7">
+          <div class="skill-category-label">
+            <i class="bi bi-window-stack"></i>&nbsp; Web &amp; Database
+          </div>
+          <div class="row g-3">
+
+            <div class="col-md-6">
+              <div class="skill-card">
+                <div class="skill-icon"><i class="bi bi-file-earmark-code-fill" aria-hidden="true"></i></div>
+                <div class="flex-grow-1">
+                  <div class="skill-name">React</div>
+                  <div class="skill-level">Intermediate</div>
+                  <div class="skill-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-label="React skill 62%">
+                    <div class="skill-bar-fill" data-width="62%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="skill-card">
+                <div class="skill-icon"><i class="bi bi-filetype-tsx" aria-hidden="true"></i></div>
+                <div class="flex-grow-1">
+                  <div class="skill-name">TypeScript</div>
+                  <div class="skill-level">Intermediate</div>
+                  <div class="skill-bar" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100" aria-label="TypeScript skill 58%">
+                    <div class="skill-bar-fill" data-width="58%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="skill-card">
+                <div class="skill-icon"><i class="bi bi-palette-fill" aria-hidden="true"></i></div>
+                <div class="flex-grow-1">
+                  <div class="skill-name">Tailwind CSS</div>
+                  <div class="skill-level">Intermediate</div>
+                  <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Tailwind CSS skill 65%">
+                    <div class="skill-bar-fill" data-width="65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="skill-card">
+                <div class="skill-icon"><i class="bi bi-database-fill" aria-hidden="true"></i></div>
+                <div class="flex-grow-1">
+                  <div class="skill-name">PostgreSQL</div>
+                  <div class="skill-level">Intermediate</div>
+                  <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="PostgreSQL skill 60%">
+                    <div class="skill-bar-fill" data-width="60%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="skill-card">
+                <div class="skill-icon"><i class="bi bi-lightning-fill" aria-hidden="true"></i></div>
+                <div class="flex-grow-1">
+                  <div class="skill-name">Supabase</div>
+                  <div class="skill-level">Intermediate</div>
+                  <div class="skill-bar" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100" aria-label="Supabase skill 58%">
+                    <div class="skill-bar-fill" data-width="58%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="col-lg-5">
+          <div class="skill-category-label">
+            <i class="bi bi-tools"></i>&nbsp; Tools &amp; Platforms
+          </div>
+          <div class="d-flex flex-column gap-3">
+
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-code-square" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">VS Code</div>
+                <div class="skill-level">Daily Driver</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="VS Code skill 90%">
+                  <div class="skill-bar-fill" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-journal-code" aria-hidden="true"></i></div>
+              <div class="flex-grow-1">
+                <div class="skill-name">Google Colab</div>
+                <div class="skill-level">Regular Use</div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Google Colab skill 70%">
+                  <div class="skill-bar-fill" data-width="70%"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       EDUCATION SECTION
+       ============================================= -->
+  <section id="education" aria-labelledby="educationTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-mortarboard-fill"></i> Education</div>
+        <h2 class="section-title" id="educationTitle">Academic Background</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 fade-up delay-1">
+          <div class="timeline">
+
+            <!-- B.Tech -->
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-card">
+                <div class="timeline-period">
+                  <i class="bi bi-calendar-event-fill"></i> 2020 – 2024
+                </div>
+                <h3 class="timeline-title">B.Tech in Computer Science and Engineering</h3>
+                <div class="timeline-sub">
+                  <i class="bi bi-building-fill"></i>&nbsp;
+                  Carmel College of Engineering and Technology, Alappuzha
+                </div>
+                <p class="timeline-desc">
+                  Completed a four-year Bachelor of Technology degree in Computer Science and
+                  Engineering. Gained strong foundations in data structures, algorithms, object-oriented
+                  programming, database management, web development, and AI/ML fundamentals.
+                </p>
+                <div class="mt-2">
+                  <span class="tech-tag">APJ Abdul Kalam Technological University</span>
+                  <span class="tech-tag">Alappuzha, Kerala</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- University Affiliation -->
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-card">
+                <div class="timeline-period">
+                  <i class="bi bi-bank2"></i> Affiliated University
+                </div>
+                <h3 class="timeline-title">APJ Abdul Kalam Technological University</h3>
+                <div class="timeline-sub">
+                  <i class="bi bi-geo-alt-fill"></i>&nbsp; Kerala, India
+                </div>
+                <p class="timeline-desc">
+                  State technical university established to advance technical education,
+                  training and research in Kerala. Known for a rigorous engineering curriculum
+                  with strong emphasis on practical skills and innovation.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+       INTERNSHIP SECTION
+       ============================================= -->
+  <section id="internship" aria-labelledby="internshipTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-briefcase-fill"></i> Internship</div>
+        <h2 class="section-title" id="internshipTitle">Professional Experience</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 fade-up delay-1">
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-card">
+
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+                  <div class="timeline-period mb-0">
+                    <i class="bi bi-calendar-check-fill"></i> 1 Month
+                  </div>
+                  <span class="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25 px-3 py-2" style="font-family:'JetBrains Mono',monospace;font-size:.75rem;">
+                    AI/ML Internship
+                  </span>
+                </div>
+
+                <h3 class="timeline-title">AI/ML Intern</h3>
+                <div class="timeline-sub">
+                  <i class="bi bi-building-fill"></i>&nbsp;
+                  ICT Academy of Kerala
+                </div>
+
+                <ul class="mt-3 ps-3" style="color:var(--text-muted);font-size:.9rem;">
+                  <li class="mb-2">
+                    Completed a comprehensive one-month AI &amp; Machine Learning internship program.
+                  </li>
+                  <li class="mb-2">
+                    Collaborated in a four-member team to design, build, and test AI/ML models using real-world datasets.
+                  </li>
+                  <li class="mb-2">
+                    Gained practical experience in data preprocessing, model training, evaluation, and optimization techniques.
+                  </li>
+                  <li>
+                    Applied Python, Scikit-learn, and deep learning frameworks for hands-on project development.
+                  </li>
+                </ul>
+
+                <div class="mt-3">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Scikit-learn</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Data Preprocessing</span>
+                  <span class="tech-tag">Team Collaboration</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+       PROJECTS SECTION
+       ============================================= -->
+  <section id="projects" aria-labelledby="projectsTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-folder-fill"></i> Projects</div>
+        <h2 class="section-title" id="projectsTitle">Featured Work</h2>
+        <div class="section-divider"></div>
+        <p class="text-muted mt-2" style="max-width:540px;margin:0 auto;">
+          A showcase of projects that demonstrate my technical breadth across AI/ML and full-stack web development.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Project 1: Depression Detection -->
+        <div class="col-lg-6 fade-up delay-1">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">
+                <i class="bi bi-brain"></i>
+              </div>
+              <h5>Multimodal Depression Detection System</h5>
+              <p class="m-0" style="color:rgba(255,255,255,.65);font-size:.85rem;">
+                AI-powered early detection framework
+              </p>
+            </div>
+            <div class="project-card-body">
+              <p>
+                Designed a <strong>privacy-aware AI system</strong> utilizing NLP, Transformer models, and
+                <strong>CNN-LSTM architectures</strong> for the early detection of depression and anxiety.
+                The multimodal framework analyzes multi-source data with a focus on ethical AI practices,
+                delivering non-invasive, scalable mental health screening tools to assist professionals.
+              </p>
+
+              <div class="mt-auto pt-3">
+                <div class="mb-2">
+                  <strong style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Tech Stack</strong>
+                </div>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">BiLSTM</span>
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">Google Colab</span>
+              </div>
+
+              <div class="mt-3 d-flex gap-2">
+                <a href="#" class="btn btn-sm btn-outline-primary" aria-label="View Multimodal Depression Detection project on GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+                <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 d-flex align-items-center px-3" style="font-size:.75rem;">
+                  <i class="bi bi-award-fill me-1"></i> Final Year Project
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Milk Management -->
+        <div class="col-lg-6 fade-up delay-2">
+          <div class="project-card">
+            <div class="project-card-header" style="background:linear-gradient(135deg,#0891b2,#0e7490);">
+              <div class="project-icon" aria-hidden="true">
+                <i class="bi bi-droplet-fill"></i>
+              </div>
+              <h5>Milk Management &amp; Distribution System</h5>
+              <p class="m-0" style="color:rgba(255,255,255,.65);font-size:.85rem;">
+                Full-stack web application
+              </p>
+            </div>
+            <div class="project-card-body">
+              <p>
+                Built a comprehensive full-stack platform to digitize and streamline dairy cooperative operations.
+                The system manages milk collection, handles digital wallets, tracks farmer payments, generates
+                invoices, and provides a powerful admin dashboard — replacing manual paper-based workflows
+                with a modern, real-time web application.
+              </p>
+
+              <!-- Feature highlights -->
+              <ul class="mt-2 ps-3 mb-3" style="color:var(--text-muted);font-size:.85rem;">
+                <li>Milk collection management &amp; daily reporting</li>
+                <li>Digital wallets &amp; automated farmer payment tracking</li>
+                <li>Invoice generation with PDF export</li>
+                <li>Role-based admin dashboard</li>
+              </ul>
+
+              <div class="mt-auto pt-2">
+                <div class="mb-2">
+                  <strong style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Tech Stack</strong>
+                </div>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Supabase</span>
+              </div>
+
+              <div class="mt-3 d-flex gap-2">
+                <a href="#" class="btn btn-sm btn-outline-primary" aria-label="View Milk Management System project on GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="#" class="btn btn-sm btn-outline-secondary" aria-label="View live demo of Milk Management System">
+                  <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Movie Success Prediction -->
+        <div class="col-lg-6 fade-up delay-3">
+          <div class="project-card">
+            <div class="project-card-header" style="background:linear-gradient(135deg,#7c3aed,#5b21b6);">
+              <div class="project-icon" aria-hidden="true">
+                <i class="bi bi-film"></i>
+              </div>
+              <h5>Movie Success Prediction System</h5>
+              <p class="m-0" style="color:rgba(255,255,255,.65);font-size:.85rem;">
+                ML-powered box office prediction
+              </p>
+            </div>
+            <div class="project-card-body">
+              <p>
+                Developed a <strong>Movie Success Prediction System</strong> to estimate the likelihood
+                of a film becoming successful based on pre-release attributes. Trained a
+                <strong>Random Forest Classifier</strong> on TMDB datasets with features like budget,
+                popularity, genre, cast/director success rates, and vote counts.
+              </p>
+
+              <!-- Feature highlights -->
+              <ul class="mt-2 ps-3 mb-3" style="color:var(--text-muted);font-size:.85rem;">
+                <li>Random Forest Classifier trained on TMDB dataset</li>
+                <li>Features: budget, genre, popularity, cast &amp; director ratings</li>
+                <li>Flask-based backend serving real-time predictions</li>
+                <li>Responsive React frontend for user input &amp; result display</li>
+              </ul>
+
+              <div class="mt-auto pt-2">
+                <div class="mb-2">
+                  <strong style="font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Tech Stack</strong>
+                </div>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Random Forest</span>
+                <span class="tech-tag">TMDB Dataset</span>
+              </div>
+
+              <div class="mt-3 d-flex gap-2">
+                <a href="#" class="btn btn-sm btn-outline-primary" aria-label="View Movie Success Prediction project on GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CERTIFICATIONS SECTION
+       ============================================= -->
+  <section id="certifications" aria-labelledby="certsTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-patch-check-fill"></i> Certifications</div>
+        <h2 class="section-title" id="certsTitle">Achievements &amp; Credentials</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="row g-3 justify-content-center">
+
+        <!-- NPTEL Java -->
+        <div class="col-md-6 col-lg-5 fade-up delay-1">
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Programming in Java</h4>
+              <div class="cert-issuer">
+                <i class="bi bi-building2"></i>&nbsp; NPTEL — IIT Online Courses
+              </div>
+              <div class="mt-2">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">NPTEL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infosys Python -->
+        <div class="col-md-6 col-lg-5 fade-up delay-2">
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Python Foundation</h4>
+              <div class="cert-issuer">
+                <i class="bi bi-building2"></i>&nbsp; Infosys Springboard
+              </div>
+              <div class="mt-2">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Programming</span>
+                <span class="tech-tag">Infosys</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infosys AI -->
+        <div class="col-md-6 col-lg-5 fade-up delay-3">
+          <div class="cert-card">
+            <div class="cert-icon" aria-hidden="true">
+              <i class="bi bi-robot"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Introduction to Artificial Intelligence</h4>
+              <div class="cert-issuer">
+                <i class="bi bi-building2"></i>&nbsp; Infosys Springboard
+              </div>
+              <div class="mt-2">
+                <span class="tech-tag">AI</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Infosys</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI/ML Internship -->
+        <div class="col-md-6 col-lg-5 fade-up delay-4">
+          <div class="cert-card">
+            <div class="cert-icon" style="background:linear-gradient(135deg,#22c55e,#16a34a);" aria-hidden="true">
+              <i class="bi bi-briefcase-fill"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">AI &amp; Machine Learning Internship Certificate</h4>
+              <div class="cert-issuer">
+                <i class="bi bi-building2"></i>&nbsp; ICT Academy of Kerala
+              </div>
+              <div class="mt-2">
+                <span class="tech-tag">AI/ML</span>
+                <span class="tech-tag">Internship</span>
+                <span class="tech-tag">ICT Academy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTACT SECTION
+       ============================================= -->
+  <section id="contact" aria-labelledby="contactTitle">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <div class="section-tag"><i class="bi bi-envelope-fill"></i> Contact</div>
+        <h2 class="section-title" id="contactTitle">Get In Touch</h2>
+        <div class="section-divider"></div>
+        <p class="text-muted mt-2" style="max-width:500px;margin:0 auto;">
+          I'm actively seeking DevOps internships and entry-level Cloud/DevOps roles.
+          Feel free to reach out — I'd love to connect!
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-start">
+
+        <!-- Contact Info Card -->
+        <div class="col-lg-5 fade-left delay-1">
+          <div class="contact-card">
+            <h3 class="mb-3" style="font-size:1.1rem;">Contact Information</h3>
+
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="contact-label">Email</div>
+                <a href="mailto:afthabvadassery@gmail.com" class="contact-value d-block">
+                  afthabvadassery@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="contact-label">Phone</div>
+                <a href="tel:+919074696894" class="contact-value d-block">
+                  +91 9074696894
+                </a>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="bi bi-linkedin"></i></div>
+              <div>
+                <div class="contact-label">LinkedIn</div>
+                <a href="https://linkedin.com/in/afthab-ahammed-n-b7314a364" target="_blank" rel="noopener noreferrer" class="contact-value d-block">
+                  linkedin.com/in/afthab-ahammed-n-b7314a364
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="bi bi-github"></i></div>
+              <div>
+                <div class="contact-label">GitHub</div>
+                <a href="https://github.com/afthabahammed" target="_blank" rel="noopener noreferrer" class="contact-value d-block">
+                  github.com/afthabahammed
+                </a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <div class="contact-label">Location</div>
+                <div class="contact-value">Alappuzha, Kerala, India</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Terminal Card -->
+        <div class="col-lg-7 fade-right delay-2">
+          <div class="terminal-box" id="terminalBox" role="region" aria-label="Terminal-style contact info">
+            <div class="terminal-topbar">
+              <div class="t-btn t-red" aria-hidden="true"></div>
+              <div class="t-btn t-yellow" aria-hidden="true"></div>
+              <div class="t-btn t-green" aria-hidden="true"></div>
+              <span class="terminal-title-text">afthab@portfolio:~</span>
+            </div>
+            <div class="terminal-body" id="termBody" aria-live="polite">
+              <!-- Injected by JS -->
+              <div><span class="t-prompt">~$</span><span class="t-cmd"> Loading...</span></div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="mt-4 p-4 rounded-3 text-center fade-up delay-3"
+               style="background:rgba(37,99,235,.08);border:1px solid rgba(37,99,235,.2);">
+            <h4 style="font-size:1.05rem;" class="mb-2">Open to Opportunities</h4>
+            <p class="text-muted mb-3" style="font-size:.9rem;">
+              Looking for DevOps internships and entry-level Cloud/DevOps Engineer roles.
+            </p>
+            <div class="d-flex gap-2 flex-wrap justify-content-center">
+              <a href="mailto:afthabvadassery@gmail.com"
+                 class="btn-primary-custom"
+                 aria-label="Send email to Afthab Ahammed">
+                <i class="bi bi-send-fill" aria-hidden="true"></i> Send Email
+              </a>
+              <a href="https://linkedin.com/in/afthab-ahammed-n-b7314a364"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn-outline-custom"
+                 style="color:var(--text-main);border-color:var(--border-color);"
+                 aria-label="View LinkedIn profile of Afthab Ahammed">
+                <i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer role="contentinfo">
+    <div class="container">
+
+      <!-- Social links -->
+      <div class="social-links mb-3" aria-label="Social media links">
+        <a href="mailto:afthabvadassery@gmail.com" aria-label="Email Afthab Ahammed">
+          <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+        </a>
+        <a href="https://linkedin.com/in/afthab-ahammed-n-b7314a364" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/afthabahammed" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+          <i class="bi bi-github" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <p class="mb-1">
+        Designed &amp; Developed by <span class="footer-name">Afthab Ahammed N</span> |
+        <span class="footer-name">Aspiring DevOps Engineer</span>
+      </p>
+      <p class="mb-0" style="font-size:.75rem;color:#475569;">
+        &copy; <span id="footerYear">2024</span> Afthab Ahammed N. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- =============================================
+       SCROLL TO TOP BUTTON
+       ============================================= -->
+  <button id="scrollTop" aria-label="Scroll back to top" title="Back to top">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS Bundle (Popper included) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmrQm+BtBsF2MWwAEjLdIVRqAEb" crossorigin="anonymous"></script>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
